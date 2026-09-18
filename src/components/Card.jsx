@@ -4,7 +4,7 @@ const Card = (props) => {
   return (
    <div className="card">
         <div className="top">
-          <img src={props.logo} alt=""></img>
+          <img src="/vite.svg" alt=""></img>
           <button>Save<Bookmark  size={12}  /></button>
         </div>
         <div className="center">
